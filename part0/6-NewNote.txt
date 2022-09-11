@@ -1,0 +1,8 @@
+note over browser:
+submits the new note
+adds the new note to the notes array
+redraws the notes
+end note
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-->browser: HTML-code
